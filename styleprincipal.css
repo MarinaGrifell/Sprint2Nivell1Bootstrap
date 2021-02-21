@@ -1,3 +1,35 @@
+body{
+    background-color:rgb(255, 245, 211);
+}
 .nav-link{
   color: black; 
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 18px;
+font-size: 90px;
+font-weight: bolder;
+letter-spacing: -8px;
+position: absolute;
+top: 75px;
+left: 10px;
+z-index: 3;
+color: rgb(177, 236, 255);
+}
+
+#logo{
+	width: 90px; 
+	height: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.d-block{
+    width:620px;
+    height:450px;
+}
+.container #carouselExampleControls {
+    padding: 0;
 }
